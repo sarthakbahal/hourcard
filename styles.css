@@ -1,0 +1,22 @@
+.page{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.wasted{
+    display: flex;
+    flex-direction: column;
+}
+
+.used{
+    display: flex;
+    flex-direction: column;
+}
+
+.btn-row{
+    display: flex;
+    justify-content: center;
+
+}
