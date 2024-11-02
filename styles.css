@@ -1,13 +1,35 @@
-.page{
+body{
+    background-image: url("https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExY2ptYWNibTdvdm16MGtxem4zN204bmJsY3VmZHE4Nm5zZnUyeXZ1dyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Kvjugjvc1L9iE/giphy.webp");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
     display: flex;
     justify-content: center;
     text-align: center;
+    align-items: center;
+}
+
+
+.page{
+    
+    display: flex;
+    flex-direction: row;
+    background-color: #c3cfe2;
+    width: 600px;
+    justify-content: space-evenly;
+    height: 200px;
+    padding: 25px 0px;
+    border: 2px solid black;
     
 }
 
 .wasted{
     display: flex;
     flex-direction: column;
+    
+    margin-right: 16px;
+
+    
 }
 
 .used{
@@ -19,4 +41,16 @@
     display: flex;
     justify-content: center;
 
+}
+
+#counter-w{
+    background-color: rgb(216, 60, 60);
+    color: white;
+    
+}
+
+#counter-u{
+    background-color: rgb(69, 235, 66);
+    color: white;
+    
 }
