@@ -14,12 +14,14 @@ body{
     
     display: flex;
     flex-direction: row;
-    background-color: #c3cfe2;
+    background-color: rgb(22, 21, 21);
     width: 600px;
     justify-content: space-evenly;
     height: 200px;
     padding: 25px 0px;
-    border: 2px solid black;
+    border: 2px solid rgb(231, 224, 224);
+    color: white;
+    border-radius: 10px;
     
 }
 
@@ -40,17 +42,46 @@ body{
 .btn-row{
     display: flex;
     justify-content: center;
+    justify-content: space-around;
+    
 
 }
 
 #counter-w{
     background-color: rgb(216, 60, 60);
     color: white;
+    width: 50px;
+    margin: auto;
+    padding: 13px;
     
 }
 
 #counter-u{
     background-color: rgb(69, 235, 66);
     color: white;
+    width: 50px;
+    margin: auto;
+    padding: 13px;
     
 }
+
+#wt{
+    text-shadow: 0px 0px 5px red;
+    margin-bottom: 10px ;
+}
+
+#ut{
+    text-shadow: 0px 0px 5px rgb(31, 233, 31);
+    margin-bottom: 10px ;
+}
+
+#btn{
+    border: 2px solid white;
+    background-color: black;
+    color: white;
+    width: 40px;
+    height: 30px;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
